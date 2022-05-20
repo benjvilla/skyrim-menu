@@ -1,0 +1,69 @@
+/* all pages */
+* {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+/* allow custom font */
+@font-face {
+    font-family: 'Futura';
+    src: url(./fonts/webfontkit-20220517-151614/futura_condensed_regular-webfont.woff);
+}
+
+/*  */
+body {
+    background-color: black;
+}
+
+/* set video as background */
+.fullscreen-bg__video {
+    background-color: black;
+    position: fixed;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+/* set all elements to flexbox except background video */
+.wrapper {
+    display: flex;
+}
+
+/*  */
+.bethesda {
+    background-color: transparent;
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+/* page 1 logo */
+.skyrim1 {
+    width: 2000px;
+    padding-left: 20rem;
+    padding-top: 6rem;
+}
+
+/* page 2 logo */
+.skyrim2 {
+    width: 1035px;
+    padding-left: 20rem;
+    padding-top: 6rem;
+}
+
+.button {
+    background-color: transparent;
+    font-family: 'Futura';
+    font-size: 32px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 7rem;
+    padding-bottom: 5rem;
+    border: none;
+}
